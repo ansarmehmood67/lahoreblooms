@@ -15,6 +15,149 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 17,
+    slug: "all-white-chrysanthemum-canopy-bridal-room-decoration-net-curtains-warm-lights-lahore",
+    title: "All-White Chrysanthemum Canopy Bridal Room Decoration – Net Curtains & Warm Lights (Lahore)",
+    price: 12000,
+    image: "/images/all-white-chrys-canopy-compact-lahore.webp",
+    description: "This compact all-white canopy bridal room decoration features white chrysanthemum florals with greenery accents, paired with sheer net curtains and warm fairy lights for a soft, elegant wedding-night vibe. Ideal for apartments, hotel rooms, and standard bedrooms where you want a premium look without heavy florals. Setup is done on-site with neat finishing and photo-ready symmetry.",
+    shortDescription: "A clean all-white canopy look with net curtains and warm fairy lights—perfect for a romantic bridal room setup in Lahore.",
+    features: [
+      "All-white chrysanthemum floral canopy styling",
+      "Sheer net curtains on all sides",
+      "Warm fairy lights integrated into canopy + curtains",
+      "Neat finishing around corners + center drop",
+      "On-site installation and styling in Lahore",
+      "Ideal for bridal room / wedding night room decor"
+    ],
+    metaDescription: "All-white chrysanthemum canopy bridal room decoration in Lahore with net curtains and warm fairy lights. Perfect for wedding night room decor with on-site setup and premium finishing.",
+    keywords: ["bridal room decoration Lahore", "wedding room decoration Lahore", "all white canopy decor", "masehri design Lahore", "net curtains canopy", "fairy lights room decor", "Lahore Blooms", "bridal room setup"],
+    category: "Room Decor"
+  },
+  {
+    id: 18,
+    slug: "soft-peach-rose-canopy-bridal-room-decoration-corner-bouquets-net-fairy-lights-lahore",
+    title: "Soft Peach Rose Canopy Bridal Room Decoration – Corner Bouquets, Net & Fairy Lights (Lahore)",
+    price: 9500,
+    image: "/images/peach-rose-corner-bouquet-canopy-lahore.webp",
+    description: "A premium minimal canopy bridal room decor featuring peach rose corner bouquets with greenery, plus flowing net curtains and warm fairy lights for a soft, romantic look. This design is ideal if you want a modern \"clean\" setup that still feels luxurious in pictures and videos. Great for engagement nights, wedding night decor, and surprise room setups in Lahore.",
+    shortDescription: "Minimal canopy with elegant peach rose corner bouquets, net curtains, and warm lights—super classy and photo-friendly.",
+    features: [
+      "Peach rose corner bouquet arrangements (4 corners)",
+      "Sheer net curtains with elegant drape",
+      "Warm fairy lights for soft glow",
+      "Balanced, minimal flower look (premium finish)",
+      "Suitable for hotel rooms + home bedrooms",
+      "Lahore-wide on-site installation"
+    ],
+    metaDescription: "Soft peach rose canopy bridal room decoration in Lahore with corner bouquets, net curtains, and warm fairy lights. A minimal, elegant wedding night room setup with professional installation.",
+    keywords: ["bridal room decoration in Lahore", "canopy room decor Lahore", "peach rose room decoration", "wedding night room setup", "net canopy design", "fairy lights canopy", "romantic room decor Lahore", "Lahore Blooms decor"],
+    category: "Room Decor"
+  },
+  {
+    id: 19,
+    slug: "classic-red-white-canopy-bridal-room-decoration-light-floral-border-net-lights-lahore",
+    title: "Classic Red & White Canopy Bridal Room Decoration – Light Floral Border, Net & Lights (Lahore)",
+    price: 9000,
+    image: "/images/classic-red-white-canopy-light-border-lahore.webp",
+    description: "This red & white bridal room canopy uses a light floral border (red roses + white blooms) with greenery detailing, finished with net curtains and warm fairy lights. It's ideal for couples who want a traditional romantic look without going \"heavy\" on florals. Great for wedding night room decoration, surprise setups, and photo shoots across Lahore.",
+    shortDescription: "A classic red-and-white canopy with net curtains and warm fairy lights—romantic, timeless, and budget-smart.",
+    features: [
+      "Red rose + white bloom border styling",
+      "Net curtains on canopy sides",
+      "Warm fairy lights for evening glow",
+      "Optional petal scattering (add-on)",
+      "Balanced coverage for a classic look",
+      "Setup service available across Lahore"
+    ],
+    metaDescription: "Classic red & white canopy bridal room decoration in Lahore with net curtains and fairy lights. A timeless wedding room decor style with clean finishing and on-site setup.",
+    keywords: ["red white bridal room decor", "wedding room decoration Lahore", "bridal room canopy Lahore", "romantic room setup Lahore", "masehri design with net", "fairy lights bridal decor", "rose canopy decoration", "Lahore Blooms"],
+    category: "Room Decor"
+  },
+  {
+    id: 20,
+    slug: "signature-red-rose-canopy-bridal-room-decoration-heavy-floral-border-net-warm-lights-lahore",
+    title: "Signature Red Rose Canopy Bridal Room Decoration – Heavy Floral Border, Net & Warm Lights (Lahore)",
+    price: 13500,
+    image: "/images/signature-heavy-red-rose-canopy-lahore.webp",
+    description: "This is a premium bridal room decoration canopy with a heavier red rose border and white accent blooms, designed to look rich in close-up photos and reels. Finished with sheer net curtains and warm fairy lights, it creates a strong \"wow\" moment as soon as the door opens. Ideal for wedding night room decor, bridal surprises, and luxury room makeovers in Lahore.",
+    shortDescription: "A premium red-rose-forward canopy with fuller floral coverage, net curtains, and warm lights for a luxury bridal look.",
+    features: [
+      "Heavy red rose border coverage (premium look)",
+      "White accent blooms + greenery detailing",
+      "Net curtains styled for photo symmetry",
+      "Warm fairy lights integrated for glow",
+      "Professional finishing + clean installation",
+      "Perfect for bridal room / wedding night decor Lahore"
+    ],
+    metaDescription: "Signature heavy red rose canopy bridal room decoration in Lahore with net curtains and warm fairy lights. A premium wedding room decor style built for photos, reels, and surprises.",
+    keywords: ["red rose canopy Lahore", "bridal room decoration Lahore", "wedding night room decor", "luxury room decoration Lahore", "masehri canopy design", "net curtains decor", "fairy lights canopy setup", "Lahore Blooms bridal decor"],
+    category: "Room Decor"
+  },
+  {
+    id: 21,
+    slug: "luxury-red-white-floral-canopy-bridal-room-decoration-grand-curtains-lights-lahore",
+    title: "Luxury Red & White Floral Canopy Bridal Room Decoration – Grand Curtains & Lights (Lahore)",
+    price: 18000,
+    image: "/images/luxury-red-white-floral-canopy-grand-lahore.webp",
+    description: "This luxury bridal room canopy decoration in Lahore features dense red-and-white florals across the canopy frame, with elegant curtain draping and warm fairy lights that glow beautifully at night. Designed for premium rooms where you want a high-end \"hotel-suite\" look for the wedding night. Ideal for couples who want a full luxury vibe with a professional finishing standard.",
+    shortDescription: "Grand luxury canopy with rich red-and-white florals, curtains, and warm lights—perfect for premium bedrooms and bridal suites.",
+    features: [
+      "Grand canopy coverage with red + white florals",
+      "Premium curtain draping on all sides",
+      "Warm fairy lights for evening ambiance",
+      "Greenery detailing for a natural finish",
+      "Best for luxury rooms, bridal suites, photo shoots",
+      "On-site installation in Lahore (DHA, Bahria, Gulberg etc.)"
+    ],
+    metaDescription: "Luxury red & white floral canopy bridal room decoration in Lahore with grand curtains and warm fairy lights. Premium wedding night room setup for bridal suites and high-end bedrooms.",
+    keywords: ["luxury bridal room decoration Lahore", "wedding room decor Lahore", "red white floral canopy", "bridal suite room decoration", "canopy decoration service Lahore", "fairy lights bridal setup", "DHA bridal room decor", "Lahore Blooms luxury decor"],
+    category: "Room Decor",
+    discount: 10
+  },
+  {
+    id: 22,
+    slug: "ultra-premium-full-red-roses-canopy-bridal-room-decoration-curtains-fairy-lights-lahore",
+    title: "Ultra Premium Full Red Roses Canopy Bridal Room Decoration – Curtains & Fairy Lights (Lahore)",
+    price: 19000,
+    image: "/images/ultra-premium-full-red-roses-canopy-lahore.webp",
+    description: "This full red roses canopy bridal room decoration is designed for a dramatic, ultra-luxury wedding night reveal. Dense red rose coverage across the canopy frame is paired with soft curtains and warm fairy lights for cinematic photos and reels. Perfect for clients who want the most premium romantic look in Lahore with a \"wow\" factor from every angle.",
+    shortDescription: "A bold, all-red roses canopy for maximum impact—luxury bridal vibe with curtains and warm fairy lights.",
+    features: [
+      "Full red roses canopy coverage (high-impact look)",
+      "Premium curtain draping with soft fall",
+      "Warm fairy lights for golden glow",
+      "Perfect for wedding night + surprise room setups",
+      "Photo/video optimized from all angles",
+      "Installed on-site anywhere in Lahore"
+    ],
+    metaDescription: "Ultra premium full red roses canopy bridal room decoration in Lahore with curtains and warm fairy lights. Best for luxury wedding night room decor, surprises, and high-end bridal suites.",
+    keywords: ["full red roses canopy", "bridal room decoration Lahore", "luxury wedding room decor", "red rose room setup Lahore", "canopy room decoration service", "bridal suite decor Lahore", "fairy lights canopy decor", "Lahore Blooms"],
+    category: "Room Decor",
+    discount: 8
+  },
+  {
+    id: 23,
+    slug: "signature-all-white-rose-canopy-bridal-room-decoration-luxury-curtains-warm-lights-lahore",
+    title: "Signature All-White Rose Canopy Bridal Room Decoration – Luxury Curtains & Warm Lights (Lahore)",
+    price: 18000,
+    image: "/images/signature-all-white-rose-canopy-lahore.webp",
+    description: "This is our signature all-white luxury bridal room canopy decoration featuring dense white roses/white blooms with greenery, finished with elegant curtains and warm fairy lights. The look is timeless and \"high-class,\" ideal for clients who want a premium vibe without strong colors. Perfect for bridal suites, hotel rooms, and wedding night room decoration across Lahore.",
+    shortDescription: "Signature all-white luxury canopy with rose-heavy florals, curtains, and warm fairy lights—clean, premium, and timeless.",
+    features: [
+      "Dense all-white rose/bloom canopy coverage",
+      "Elegant curtain draping on all sides",
+      "Warm fairy lights for soft luxury glow",
+      "Premium finishing for bridal suite look",
+      "Best for wedding night + engagement room decor",
+      "Lahore-wide installation (DHA, Bahria, Gulberg, Johar Town, Model Town)"
+    ],
+    metaDescription: "Signature all-white rose canopy bridal room decoration in Lahore with luxury curtains and warm fairy lights. Premium wedding night room setup for bridal suites, hotels, and home bedrooms.",
+    keywords: ["all white bridal room decoration Lahore", "white rose canopy decor", "wedding room decoration Lahore", "luxury bridal suite decoration", "canopy with curtains and lights", "masehri canopy design Lahore", "romantic room setup Lahore", "Lahore Blooms all white canopy"],
+    category: "Room Decor",
+    discount: 12
+  },
+  {
     id: 1,
     slug: "all-white-floral-canopy-wedding-room-decoration-teddy-bear-theme",
     title: "All-White Floral Canopy Wedding Room Decoration – Teddy Bear Theme",
