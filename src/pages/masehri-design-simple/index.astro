@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const siteUrl = 'https://weddingroomdecoration.com';
+const phoneNumber = '+923227555459';
+const whatsappUrl = `https://wa.me/923227555459`;
+const pageTitle = 'Simple Masehri Design | Minimal Bridal Room Setup Lahore';
+const pageDescription = 'Simple masehri design options for Lahore bridal rooms with clean lines, soft flowers, and easy booking.';
+const canonical = `${siteUrl}/masehri-design-simple/`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} canonical={canonical}>
+  <section class="space-y-6">
+    <h1 class="text-3xl font-bold text-rose-700">Simple Masehri Design</h1>
+    <p class="text-gray-700 leading-relaxed">Simple masehri design keeps the bridal room neat and photo-ready without heavy frames. We use soft fabrics, light florals, and compact seating so the bride feels comfortable and the décor fits smaller Lahore bedrooms. Share your wall size and colour theme; we’ll suggest minimal frames, floral points, or ribbon drapes that look elegant in daytime photos. Pricing stays transparent, and you can confirm or adjust flowers before booking. WhatsApp is the fastest way to view current simple options and reserve your slot.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Starting Price / Range</h2>
+    <p class="text-gray-700">Lightweight simple masehri decor starts from an entry range with small floral accents and fabric draping.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">What’s Included</h2>
+    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+      <li>Compact backdrop or ribbon drape to frame the bed</li>
+      <li>Focused floral points instead of heavy coverage</li>
+      <li>Coordinated cushions for comfortable seating</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Designs / Products</h2>
+    <p class="text-gray-700">Pick from pastel fabric drops, slim floral rings, or single-panel backdrops that stay tidy in low-ceiling rooms.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Best For</h2>
+    <p class="text-gray-700">Homes wanting a calm bridal seat, quick setups, and clean photos without large stage structures.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">How Booking Works</h2>
+    <ol class="list-decimal pl-5 text-gray-700 space-y-1">
+      <li>Send room width, ceiling height, and a quick photo on WhatsApp.</li>
+      <li>Review 2–3 simple masehri looks with estimated ranges.</li>
+      <li>Confirm design and timing; team sets up and tidies after.</li>
+    </ol>
+
+    <h2 class="text-2xl font-semibold text-gray-900">FAQs</h2>
+    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+      <li>Can simple masehri decor fit beside existing furniture?</li>
+      <li>Do you use fresh or artificial flowers in minimal setups?</li>
+      <li>How early should I book for a weekday event?</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Book Now</h2>
+    <div class="space-y-2 text-gray-700">
+      <p>Contact us to hold a simple masehri slot that matches your room size and timing.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href={whatsappUrl} class="inline-flex items-center gap-2 rounded-full bg-rose-600 px-4 py-2 text-white font-semibold shadow hover:bg-rose-700 transition" aria-label={`Chat on WhatsApp at ${phoneNumber}`}>WhatsApp Us</a>
+        <a href="/wedding-room-decoration-prices/" class="inline-flex items-center gap-2 rounded-full border border-rose-600 px-4 py-2 text-rose-700 font-semibold hover:bg-rose-50 transition">View Prices</a>
+        <a href="/contact/" class="inline-flex items-center gap-2 rounded-full border border-gray-300 px-4 py-2 text-gray-800 font-semibold hover:bg-gray-50 transition">Contact Form</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
