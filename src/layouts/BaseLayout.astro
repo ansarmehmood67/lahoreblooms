@@ -1,6 +1,6 @@
 ---
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 
 interface Props {
   title: string;
@@ -26,10 +26,10 @@ const canonicalUrl = canonical ?? undefined;
     <meta property="og:url" content={canonicalUrl ?? siteUrl} />
   </head>
   <body class="bg-white text-gray-900">
-    <Header />
-    <main id="main-content" class="mx-auto max-w-5xl px-4 py-10">
+    <SiteHeader />
+    <main class="mx-auto max-w-5xl px-4 py-10">
       <slot />
     </main>
-    <Footer />
+    <SiteFooter />
   </body>
 </html>
