@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const siteUrl = 'https://weddingroomdecoration.com';
+const phoneNumber = '+923227555459';
+const whatsappUrl = `https://wa.me/923227555459`;
+const pageTitle = 'Wedding Room Decoration Prices Lahore';
+const pageDescription = 'Wedding room decoration price ranges in Lahore with what’s included, booking steps, and quick contact links.';
+const canonical = `${siteUrl}/wedding-room-decoration-prices/`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} canonical={canonical}>
+  <section class="space-y-6">
+    <h1 class="text-3xl font-bold text-rose-700">Wedding Room Decoration Prices</h1>
+    <p class="text-gray-700 leading-relaxed">Get a clear view of wedding room decoration prices in Lahore. We share starting ranges for simple petals-and-lights setups, balanced floral looks, and premium luxury rooms. Costs depend on flowers, structures, timing, and location. Send your room photos on WhatsApp for an exact quote; we reply with options so you can choose the best value without surprises.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Starting Price / Range</h2>
+    <p class="text-gray-700">Entry packages start from a simple petal and light setup, mid-range includes florals and frames, and premium adds luxury flowers and layered lighting.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">What’s Included</h2>
+    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+      <li>Setup and styling by the Lahore Blooms team</li>
+      <li>Flowers, petals, lighting, and agreed props</li>
+      <li>Clear guidance on what stays and what is returned</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Designs / Products</h2>
+    <p class="text-gray-700">Compare simple, balanced, and luxury looks; we match designs to your budget before confirming.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Best For</h2>
+    <p class="text-gray-700">Couples who want transparent pricing before selecting a wedding room decoration design.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">How Booking Works</h2>
+    <ol class="list-decimal pl-5 text-gray-700 space-y-1">
+      <li>Share room photos, location, and event time on WhatsApp.</li>
+      <li>Receive price ranges for 2–3 suitable designs.</li>
+      <li>Confirm; we schedule setup and finish before your arrival.</li>
+    </ol>
+
+    <h2 class="text-2xl font-semibold text-gray-900">FAQs</h2>
+    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+      <li>What affects the price the most—flowers or lights?</li>
+      <li>Is there a travel charge for areas outside central Lahore?</li>
+      <li>Do you offer combo discounts with bouquets or car decor?</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Book Now</h2>
+    <div class="space-y-2 text-gray-700">
+      <p>Contact us for a tailored price based on your room size and timing.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href={whatsappUrl} class="inline-flex items-center gap-2 rounded-full bg-rose-600 px-4 py-2 text-white font-semibold shadow hover:bg-rose-700 transition" aria-label={`Chat on WhatsApp at ${phoneNumber}`}>WhatsApp Us</a>
+        <a href="/wedding-room-decoration-prices/" class="inline-flex items-center gap-2 rounded-full border border-rose-600 px-4 py-2 text-rose-700 font-semibold hover:bg-rose-50 transition">View Prices</a>
+        <a href="/contact/" class="inline-flex items-center gap-2 rounded-full border border-gray-300 px-4 py-2 text-gray-800 font-semibold hover:bg-gray-50 transition">Contact Form</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
