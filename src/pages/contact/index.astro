@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const siteUrl = 'https://weddingroomdecoration.com';
+const phoneNumber = '+923227555459';
+const whatsappUrl = `https://wa.me/923227555459`;
+const pageTitle = 'Contact Lahore Blooms | Wedding Room Decoration';
+const pageDescription = 'Contact Lahore Blooms for wedding room decoration in Lahore. WhatsApp-first support with quick booking steps.';
+const canonical = `${siteUrl}/contact/`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} canonical={canonical}>
+  <section class="space-y-6">
+    <h1 class="text-3xl font-bold text-rose-700">Contact Lahore Blooms</h1>
+    <p class="text-gray-700 leading-relaxed">Reach out to Lahore Blooms for wedding room decoration, masehri design, or luxury first-night setups. WhatsApp is the fastest way to share your room photos, date, and budget so we can suggest the right options. We cover Lahore and nearby areas with punctual teams and transparent pricing. Send us a message to hold your preferred slot.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Starting Price / Range</h2>
+    <p class="text-gray-700">Prices vary by design complexity; we share clear ranges once we see your room and timing.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">What’s Included</h2>
+    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+      <li>Fast WhatsApp response with design suggestions</li>
+      <li>Complete setup with flowers, lighting, and agreed props</li>
+      <li>Guidance on handover, removal, and care</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Designs / Products</h2>
+    <p class="text-gray-700">We recommend designs based on your photos—simple, balanced, or luxury—without changing your room layout.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Best For</h2>
+    <p class="text-gray-700">Anyone needing a quick response to confirm wedding room decoration availability in Lahore.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">How Booking Works</h2>
+    <ol class="list-decimal pl-5 text-gray-700 space-y-1">
+      <li>Send your date, location, and room photos via WhatsApp.</li>
+      <li>Review suggested designs with price ranges.</li>
+      <li>Confirm the slot; we schedule setup and arrival time.</li>
+    </ol>
+
+    <h2 class="text-2xl font-semibold text-gray-900">FAQs</h2>
+    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+      <li>What response time can I expect on WhatsApp?</li>
+      <li>Do you work in hotels or only homes?</li>
+      <li>How close to the event can I confirm a booking?</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Book Now</h2>
+    <div class="space-y-2 text-gray-700">
+      <p>Message us to confirm availability and get a firm quote for your date.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href={whatsappUrl} class="inline-flex items-center gap-2 rounded-full bg-rose-600 px-4 py-2 text-white font-semibold shadow hover:bg-rose-700 transition" aria-label={`Chat on WhatsApp at ${phoneNumber}`}>WhatsApp Us</a>
+        <a href="/wedding-room-decoration-prices/" class="inline-flex items-center gap-2 rounded-full border border-rose-600 px-4 py-2 text-rose-700 font-semibold hover:bg-rose-50 transition">View Prices</a>
+        <a href="/contact/" class="inline-flex items-center gap-2 rounded-full border border-gray-300 px-4 py-2 text-gray-800 font-semibold hover:bg-gray-50 transition">Contact Form</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

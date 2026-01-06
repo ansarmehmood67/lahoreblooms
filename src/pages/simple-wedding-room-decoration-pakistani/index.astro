@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const siteUrl = 'https://weddingroomdecoration.com';
+const phoneNumber = '+923227555459';
+const whatsappUrl = `https://wa.me/923227555459`;
+const pageTitle = 'Simple Wedding Room Decoration Pakistani Style';
+const pageDescription = 'Simple Pakistani wedding room decoration ideas in Lahore with clear pricing, quick steps, and cozy layouts.';
+const canonical = `${siteUrl}/simple-wedding-room-decoration-pakistani/`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription} canonical={canonical}>
+  <section class="space-y-6">
+    <h1 class="text-3xl font-bold text-rose-700">Simple Wedding Room Decoration Pakistani</h1>
+    <p class="text-gray-700 leading-relaxed">Simple Pakistani wedding room decoration focuses on a warm first-night feel without heavy structures. We use petals, light florals, and clean lighting so the room feels romantic and easy to move around. Share your budget and bed size; we’ll suggest low-clutter options with clear prices. You can keep it classic red and gold or choose softer pastels—either way we keep the layout photo-friendly for Lahore homes. WhatsApp us to see sample looks and lock your slot.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Starting Price / Range</h2>
+    <p class="text-gray-700">Entry simple setups start from a budget-friendly range with petals and fairy lights, adjustable by flower volume.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">What’s Included</h2>
+    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+      <li>Bed styling with petals or light floral borders</li>
+      <li>Wall or headboard lights to frame the space</li>
+      <li>Small vases or accents to keep the room balanced</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Designs / Products</h2>
+    <p class="text-gray-700">Options include heart-shaped petals, fairy light walls, and compact floral points that fit most Pakistani bedrooms.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Best For</h2>
+    <p class="text-gray-700">Couples wanting a cozy first-night look that is easy to set up and remove in family homes.</p>
+
+    <h2 class="text-2xl font-semibold text-gray-900">How Booking Works</h2>
+    <ol class="list-decimal pl-5 text-gray-700 space-y-1">
+      <li>Send room photos, colour choice, and budget on WhatsApp.</li>
+      <li>Receive 2–3 simple decoration options with ranges.</li>
+      <li>Confirm timing; team decorates and leaves the room tidy.</li>
+    </ol>
+
+    <h2 class="text-2xl font-semibold text-gray-900">FAQs</h2>
+    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+      <li>Can you skip candles and use only LED lights?</li>
+      <li>Do you bring bedsheets or should we provide them?</li>
+      <li>Is cleanup required right after the night?</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-gray-900">Book Now</h2>
+    <div class="space-y-2 text-gray-700">
+      <p>Reserve a simple Pakistani-style room decoration with upfront pricing and WhatsApp support.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href={whatsappUrl} class="inline-flex items-center gap-2 rounded-full bg-rose-600 px-4 py-2 text-white font-semibold shadow hover:bg-rose-700 transition" aria-label={`Chat on WhatsApp at ${phoneNumber}`}>WhatsApp Us</a>
+        <a href="/wedding-room-decoration-prices/" class="inline-flex items-center gap-2 rounded-full border border-rose-600 px-4 py-2 text-rose-700 font-semibold hover:bg-rose-50 transition">View Prices</a>
+        <a href="/contact/" class="inline-flex items-center gap-2 rounded-full border border-gray-300 px-4 py-2 text-gray-800 font-semibold hover:bg-gray-50 transition">Contact Form</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
